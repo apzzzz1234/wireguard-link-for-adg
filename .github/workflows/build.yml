@@ -49,3 +49,12 @@ jobs:
       - name: Build and verify unsigned APK
         shell: pwsh
         run: ./build.ps1
+      - name: Preserve unsigned test build
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: unsigned-test-apk
+          path: |
+            artifacts/*-unsigned.apk
+            artifacts/build-info.json
+          if-no-files-found: error
+          retention-days: 14
