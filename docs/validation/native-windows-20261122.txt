@@ -1,0 +1,42 @@
+=== RUN   TestEngineRebindFailureAndRecovery
+--- PASS: TestEngineRebindFailureAndRecovery (0.01s)
+=== RUN   TestUDPRejectsDeclaredSourceIPMismatch
+--- PASS: TestUDPRejectsDeclaredSourceIPMismatch (0.00s)
+=== RUN   TestAllowedDestinationNeverFallsBackToDirect
+--- PASS: TestAllowedDestinationNeverFallsBackToDirect (15.10s)
+=== RUN   TestProxyRejectsPublicBindAndMissingRoutes
+--- PASS: TestProxyRejectsPublicBindAndMissingRoutes (0.00s)
+=== RUN   TestSOCKSRecoveryNormalTCPEcho
+--- PASS: TestSOCKSRecoveryNormalTCPEcho (0.00s)
+=== RUN   TestSOCKSRecoveryTCPHalfCloseMustPreserveResponse
+--- PASS: TestSOCKSRecoveryTCPHalfCloseMustPreserveResponse (0.00s)
+=== RUN   TestSOCKSRecoveryUserspaceHalfClose
+=== RUN   TestSOCKSRecoveryUserspaceHalfClose/true
+=== RUN   TestSOCKSRecoveryUserspaceHalfClose/false
+--- PASS: TestSOCKSRecoveryUserspaceHalfClose (0.00s)
+    --- PASS: TestSOCKSRecoveryUserspaceHalfClose/true (0.00s)
+    --- PASS: TestSOCKSRecoveryUserspaceHalfClose/false (0.00s)
+=== RUN   TestSOCKSRecoveryNormalUDPEcho
+--- PASS: TestSOCKSRecoveryNormalUDPEcho (0.00s)
+=== RUN   TestSOCKSRecoveryUDPExplicitSenderMustBeHonored
+--- PASS: TestSOCKSRecoveryUDPExplicitSenderMustBeHonored (0.30s)
+=== RUN   TestAuthenticationRequired
+--- PASS: TestAuthenticationRequired (0.00s)
+=== RUN   TestTCPConnectAddressFormsAndStop
+=== RUN   TestTCPConnectAddressFormsAndStop/1
+=== RUN   TestTCPConnectAddressFormsAndStop/3
+=== RUN   TestTCPConnectAddressFormsAndStop/4
+--- PASS: TestTCPConnectAddressFormsAndStop (0.00s)
+    --- PASS: TestTCPConnectAddressFormsAndStop/1 (0.00s)
+    --- PASS: TestTCPConnectAddressFormsAndStop/3 (0.00s)
+    --- PASS: TestTCPConnectAddressFormsAndStop/4 (0.00s)
+=== RUN   TestUDPAssociateAndFragmentRejection
+--- PASS: TestUDPAssociateAndFragmentRejection (0.20s)
+=== RUN   TestAddressParserRejectsTruncatedAndInvalid
+--- PASS: TestAddressParserRejectsTruncatedAndInvalid (0.00s)
+=== RUN   TestEngineLifecycleAndStatisticsRedaction
+--- PASS: TestEngineLifecycleAndStatisticsRedaction (0.00s)
+=== RUN   TestEncryptedWireGuardTCPAndUDP
+--- PASS: TestEncryptedWireGuardTCPAndUDP (0.01s)
+PASS
+ok  	github.com/david419kr/wireguard-link-for-adg/native	15.660s
