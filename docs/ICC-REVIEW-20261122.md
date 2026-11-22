@@ -34,7 +34,7 @@ Suitable for a one-device pilot; do not replace all existing VPN clients yet. Pr
 - UI translation check passed: 153 messages, 129 uses.
 - Maven dependency checksums verified by upstream fetch tool.
 - govulncheck v1.10.0 on Windows host build: 0 reachable symbol findings; 3 package and 45 module findings, including unused paths and Windows-specific findings. This is NOT an Android build vulnerability clearance. Dependency upgrades and Android-target dependency review remain pre-release work.
-- Upstream baseline Linux race tests / Android four-ABI build: see linked CI run; results are recorded after completion.
+- Upstream baseline Linux race tests and Android four-ABI build passed: https://github.com/apzzzz1234/wireguard-link-for-adg/actions/runs/45013657947 . Java host checks: 873 assertions across seven suites. APK is unsigned; no device installation performed. Fork regressions passed Linux race tests and the complete four-ABI Android build also passed: https://github.com/apzzzz1234/wireguard-link-for-adg/actions/runs/45013861285 .
 
 ## Device acceptance checklist
 
